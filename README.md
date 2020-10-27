@@ -62,6 +62,6 @@ Below is a step-by-step method to prepare an environment capable of running the 
 
 3. Open the jupyter console to run notebooks:
 
-`jupyter notebook`
+`jupyter notebook` 
 
 4. When done, use `conda deactivate` to deactivate your virtual environment. To reload this environment in the future, use `conda activate environment_name`, skipping step 2.
