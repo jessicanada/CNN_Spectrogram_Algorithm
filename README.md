@@ -4,6 +4,8 @@ A method to classify spectrograms from raw EEG data using a convolutional neural
 SpectrogramClassificationAlgorithm.ipynb: trains the model on data from train and valid folders, tests on data from test folder
 Use_pretrained_model.ipynb: uses our model weights from trained model, tests on new test data from test folder
 
+Code in fastai folder comes from fastai version 0.7 by Jeremy Howard: https://www.fast.ai/
+
 ## Data Structure
 
 To run either notebook, you must have a data folder of the following structure:
