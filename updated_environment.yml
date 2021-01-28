@@ -338,7 +338,6 @@ dependencies:
     - pyasn1==0.4.8
     - pygments==2.7.2
     - pyperclip==1.8.1
-    - python-graphviz==0.14.2
     - python-utils==2.4.0
     - pyzmq==19.0.2
     - rsa==4.5
