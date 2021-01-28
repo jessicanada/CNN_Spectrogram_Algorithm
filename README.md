@@ -44,6 +44,8 @@ Below is a step-by-step method to prepare an environment capable of running the 
 
 `conda env create -f updated_environment.yml -n environment_name`
 
+Note: if you're not using OSX, use the environment without builds: `conda env create -f environment_no_builds.yml -n environment_name`
+
 `conda activate environment_name`
 
 2. Install additional necessary libraries:
@@ -57,8 +59,6 @@ Below is a step-by-step method to prepare an environment capable of running the 
 `conda install mkl=2018`
 
 `conda install pytorch torchvision -c pytorch`
-
-`conda update -n base conda`
 
 3. Open the jupyter console to run notebooks:
 
