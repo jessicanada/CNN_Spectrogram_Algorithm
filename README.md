@@ -44,23 +44,9 @@ Below is a step-by-step method to prepare an environment capable of running the 
 
 1. In terminal, load in a virtual environment with conda, give it a name (`environment_name`):
 
-`conda env create -f updated_environment.yml -n environment_name`
-
-Note: if you're not using OSX, use the environment without builds: `conda env create -f environment_no_builds.yml -n environment_name`
+`conda env create -f new_enviro.yml -n environment_name`
 
 `conda activate environment_name`
-
-2. Install additional necessary libraries:
-
-`pip install torchtext==0.2.3`
-
-`pip install opencv-python graphviz sklearn_pandas isoweek pandas_summary feather-format jupyter_contrib_nbextensions plotnine docrepr awscli kaggle-cli pdpbox seaborn`
-
-`conda install -c anaconda bcolz`
-
-`conda install mkl=2018`
-
-`conda install pytorch torchvision -c pytorch`
 
 3. Open the jupyter console to run notebooks:
 
