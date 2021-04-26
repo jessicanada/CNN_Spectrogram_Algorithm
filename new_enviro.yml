@@ -1,0 +1,22 @@
+name: test_enviro
+channels:
+  - defaults
+dependencies:
+  - bcolz
+  - notebook
+  - pytorch
+  - opencv
+  - scipy
+  - seaborn
+  - graphviz
+  - pip
+  - pip:
+    - graphviz
+    - sklearn_pandas
+    - isoweek
+    - pandas_summary
+    - ipywidgets
+    - tqdm
+    - torchtext
+    - torchvision
+prefix: /anaconda3/envs/test_enviro
