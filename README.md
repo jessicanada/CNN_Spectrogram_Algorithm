@@ -32,9 +32,10 @@ The Yes and No subfolders contain positive and negative case images on which we 
 For Use_pretrained_model.ipynb:
 The test folder contains new test data to be evaluated by our pretrained model (saved_model.pkl). For the code to run with this library, the Yes and No subfolders of train and valid cannot be empty: fill them with a few images from your test data--this will not affect the output.
 
-make_spectra_from_signal.m is MatLab code to break a signal into spectrograms and save in a test folder. To run this, you must have a .mat file containing dEDF (Nx1 vector of the data signal) and tEDF (Nx1 vector of the time signal).
+make_test_data_imgs_from_csv.ipynb is Python code to break the signal into spectrograms and save in a test folder. To run this, you must have a .csv file for dEDF (Nx1 vector of the data signal) and a .csv file for tEDF (Nx1 vector of the time signal)
 
-Alternatively, use the notebook make_test_data_imgs_from_csv.ipynb to break the signal into spectrograms and save in a test folder. To run this, you must have a .csv file for dEDF (Nx1 vector of the data signal) and a .csv file for tEDF (Nx1 vector of the time signal)
+Alternatively, make_spectra_from_signal.m is MatLab code to break a signal into spectrograms and save in a test folder. To run this, you must have a .mat file containing dEDF (Nx1 vector of the data signal) and tEDF (Nx1 vector of the time signal).
+
 
 ## Environment
 
