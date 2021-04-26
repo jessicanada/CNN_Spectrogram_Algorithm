@@ -34,6 +34,8 @@ The test folder contains new test data to be evaluated by our pretrained model (
 
 make_spectra_from_signal.m is MatLab code to break a signal into spectrograms and save in a test folder. To run this, you must have a .mat file containing dEDF (Nx1 vector of the data signal) and tEDF (Nx1 vector of the time signal).
 
+Alternatively, use the notebook make_test_data_imgs_from_csv.ipynb to break the signal into spectrograms and save in a test folder. To run this, you must have a .csv file for dEDF (Nx1 vector of the data signal) and a .csv file for tEDF (Nx1 vector of the time signal)
+
 ## Environment
 
 Below is a step-by-step method to prepare an environment capable of running the notebooks:
